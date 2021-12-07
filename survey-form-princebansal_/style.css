@@ -1,0 +1,51 @@
+body{
+  font-family: 'Poppins', sans-serif;
+  background-color: lightgrey;
+  width: 600px;
+  margin:auto;
+  text-align: center;
+}
+.form-value{
+  color:white;
+  text-align: justify;
+  line-height: 2;
+  background: grey;
+  padding:2.5rem;
+  border-radius: 5px;
+  width:480px;
+  margin:auto;
+}
+.name-label{
+  width: 100%;
+  border-radius: 4px;
+}
+.email-label{
+  width: 100%;
+  border-radius: 4px;
+}
+.number-label{
+  width: 100%;
+  border-radius: 4px;
+}
+.role-label{
+  width: 100%;
+  border-radius: 4px;
+}
+.feature-label{
+  width: 100%;
+  border-radius: 4px;
+}
+.comment{
+  width: 100%;
+  border-radius: 4px;
+}
+
+
+.submit-button{
+  width:100%;
+  padding:0.75rem;
+  background-color: green;
+  color:white;
+  border-radius: 5px;
+  cursor: pointer;
+}

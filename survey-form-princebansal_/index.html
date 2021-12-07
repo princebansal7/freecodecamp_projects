@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Survey Form</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>SurveyForm- prince</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<header>
+  <h1 id="title">freeCodeCamp Survey Form</h1>
+</header>
+<body>
+  <!-- <img src="https://i.pinimg.com/600x315/f8/29/70/f82970f3e1d28d3e816729d850b2b1a0.jpg" /> -->
+  <p id="description"><i>Thank you for taking the time to help us improve the platform</i></p>
+  <div class="form-value">
+    <form id="survey-form">
+      <label id="name-label" class="name-label" for="name">Name</label><br>
+      <input id="name" class="name-label" type="text" placeholder="Enter your name" required> <br>
+
+      <label id="email-label" for="emaill">Email</label><br>
+      <input id="email" class="email-label" type="email" placeholder="Enter your Email" required><br>
+
+      <label id="number-label" for="number">Age(optional)</label><br>
+      <input id="number" class="number-label" type="number" min="13" max="100" placeholder="Age" required><br />
+
+      <label for="dropdown" >Which option best describes your current role?</label><br />
+      <select id="dropdown" class="role-label">
+        <option disabled selected value >Select current role</option>
+        <option value="student">Student</option>
+        <option value="full-time-job">Full Time Job</option>
+        <option value="full-time-learner">Full Time Learner</option>
+        <option value="prefer-not-to-say">Prefer not to say</option>
+        <option value="other">Other</option>
+      </select><br />
+
+      <label for="radio">Would you recommend freeCodeCamp to a friend?</label><br/>
+        <input type="radio" name="action" value="definitely" for="definitely" checked>Definitely</label><br>
+        <input type="radio" name="action" value="maybe" for="maybe">Maybe</label><br>
+        <input type="radio" name="action" value="not-sure" for="not-sure">Not sure</label><br>
+
+      <label for="dropdown" >What is your favorite feature of freeCodeCamp?</label><br>
+      <select id="dropdown" class="feature-label">
+        <option disabled selected value >Select an option</option>
+        <option value="projects">Projects</option>
+        <option value="challenges">Challenges</option>
+        <option value="community">Community</option>
+        <option value="open-source">Open Source</option>
+      </select>
+
+      <p>What would you like to see improved? <span class="hint"><i>(Check all that apply)</i></span></p>
+
+    <label><input value="front-end-projects" type="checkbox">Front-end Projects</label><br />
+    <label><input value="back-end-projects" type="checkbox">Back-end Projects</label><br>
+    <label><input value="data-visualization" type="checkbox">Data Visualization</label><br />
+    <label><input value="challenges" type="checkbox">Challenges</label><br />
+    <label><input value="open-source-community" type="checkbox">Open Source Community</label><br />
+    <label><input value="videos" type="checkbox">Videos</label><br />
+    <label><input value="city-meetups" type="checkbox">City Meetups</label><br />
+    <label><input value="wiki" type="checkbox">Wiki</label><br />
+    <label><input value="forum" type="checkbox">Forum</label><br />
+    <label><input value="additional-courses" type="checkbox">Additional Courses</label>
+
+    <p>Any comments or suggestions?</p>
+    <textarea id="input-textarea" class="comment" name="comment" rows="5" columns="10" placeholder="Enter your comment here..."></textarea> <br>
+    <button id="submit" class="submit-button" value="submit">Submit</button></br>
+    </form>
+  </div>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+</body>
+
+</html>
+<!-- partial -->
+  <script src='https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
